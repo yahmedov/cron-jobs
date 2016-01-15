@@ -1,0 +1,2 @@
+mv -f /home/medenkac/public_html/access-logs/$(date +"%d-%b-%Y")/http-daily-log.txt /home/medenkac/public_html/access-logs/$(date +"%d-%b-%Y")/http-daily-log-part1.txt
+# rename log file, set cron to run after 16h;

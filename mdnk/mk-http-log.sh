@@ -1,0 +1,2 @@
+mkdir -p /home/medenkac/public_html/access-logs/$(date +"%d-%b-%Y")/; tail access-logs/medenka.com -n 10000 | grep $(date +"%d/%b/%Y") > /home/medenkac/public_html/access-logs/$(date +"%d-%b-%Y")/http-daily-log.txt
+# create dir with current date as name(no error if already exists); and create log file in it
